@@ -12,7 +12,7 @@ See example: https://streamable.com/ib6d8
 
 ## Usage
 
-It is mandatory that your **ViewController** contains a **UIScrollView**.
+It is mandatory that your **ViewController** contains an **UIScrollView**.
 
     import UIKit
     
