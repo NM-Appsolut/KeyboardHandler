@@ -2,6 +2,8 @@
 
 This class is a simple handler for the appearance of the system keyboard during editing in UITextField or UITextView. It will adjust the position of the textfields/textviews accordingly so they will not be overlapped by the keyboard.
 
+![enter image description here](https://nm-appsolut.de/assets/images/KeyboardHandler.gif)
+
 ## Benefits
 
  - Easy to use
