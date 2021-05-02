@@ -26,16 +26,16 @@ extension KeyboardHandler {
             forName: UIResponder.keyboardWillShowNotification,
             object: nil,
             queue: nil
-        ) { notification in
-            self.keyboardWillShow(notification, with: scrollView)
+        ) { [weak self] notification in
+            self?.keyboardWillShow(notification, with: scrollView)
         }
 
         NotificationCenter.default.addObserver(
             forName: UIResponder.keyboardWillHideNotification,
             object: nil,
             queue: nil
-        ) { notification in
-            self.keyboardWillHide(notification, with: scrollView)
+        ) { [weak self] notification in
+            self?.keyboardWillHide(notification, with: scrollView)
         }
     }
 
